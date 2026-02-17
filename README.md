@@ -25,7 +25,7 @@
 
 **Interests**: Artificial Intelligence | Cloud Computing | Scalable AI Deployment | Open Source
 
-**Goal**: Rigorously preparing for GSoC 2026 while learning to build and deploy AI at scale with cloud infrastructure.
+**Goal**: Rigorously preparing for ***GSoC*** 2026 while learning to build and deploy AI at scale with cloud infrastructure.
 
 **Philosophy**: Merging the power of cloud platforms with intelligent AI systems to solve real-world problems.
 
