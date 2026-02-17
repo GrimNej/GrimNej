@@ -1,22 +1,84 @@
-# 💫 About Me:
-AI enthusiast with a strong interest in Generative AI.<br>
-Python is my language of choice for building, experimenting, and learning.<br>
-Always curious, always learning, and always open to collaborating on exciting ideas and projects.<br>
+<h2 align="center">Hey there, I'm GrimNej</h2>
+<p align="center">AI/Cloud Practitioner | Student | Open Source Enthusiast</p>
 
-## 🌐 Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/grimnej)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/grimnej)
-[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@grimnej)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:grim98413@gmail.com)
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2500&pause=700&color=00F7FF&center=true&vCenter=true&width=800&lines=AI+with+Cloud;Cloud+%2B+AI+%3D+Future;Cloud+is+the+Engine+%7C+AI+is+the+Fuel;Automate+Tasks+but+Never+Automate+Thought" />
+</p>
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
-![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white)
-![Gimp](https://img.shields.io/badge/Gimp-657D8B?style=for-the-badge&logo=gimp&logoColor=FFFFFF)
+---
 
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWl4Y2x6NjVkbGZ2OWhmOGd0dTY2OHJvdDBwM3UzbmRjZnV5dXpoNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/JqmupuTVZYaQX5s094/giphy.gif" width="300" alt="AI Cloud Animation"/>
+</p>
+
+---
+
+## About Me
+
+**Name**: Ginej Neupane (GrimNej)
+**Location**: Nepal
+**Education**: Bachelor of Computer Application (3rd Year)
+**Role**: Student | AI/Cloud Practitioner
+**Interests**: Artificial Intelligence | Cloud Computing | Scalable AI Deployment | Open Source
+**Goal**: Rigorously preparing for GSoC 2026 while learning to build and deploy AI at scale with cloud infrastructure.
+**Philosophy**: Merging the power of cloud platforms with intelligent AI systems to solve real-world problems.
+
+---
+
+## Skills
+
+**Programming Languages**
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,javascript,java,lua,html,css,php" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/SQL-4479A1?logo=postgresql&logoColor=white&style=for-the-badge" />
+</p>
+
+---
+
+## Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=pytorch,flask,docker,numpy" /><br><br>
+  <img src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white&style=for-the-badge" />
+</p>
+
+---
+
+## What I'm Up To
+
+- Building and experimenting with AI models and cloud deployment pipelines.
+- Rigorously preparing for Google Summer of Code (GSoC) 2026.
+- Learning AI development and deployment at scale with cloud platforms.
+- Crafting tools and solutions in Python to solve real-world problems.
+- Exploring the intersection of artificial intelligence and cloud infrastructure.
+
+---
+
+## GitHub Performance
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=GrimNej&theme=github-dark&hide_border=true" width="100%"/>
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api?username=GrimNej&show_icons=true&theme=github_dark&hide_border=true" width="48%"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=GrimNej&theme=github-dark-blue&hide_border=true" width="48%"/>
+</div>
+
+---
+
+## Connect With Me
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/grimnej/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://www.youtube.com/@grimnej"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/></a>
+  <a href="https://www.instagram.com/grimnej/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
+  <a href="https://discord.com/users/713227090635391046"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"/></a>
+  <a href="mailto:grim98413@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+</p>
+
+---
+
+<h3 align="center">"Learn everything about something, and learn something about everything."</h3>
