@@ -16,11 +16,17 @@
 ## About Me
 
 **Name**: Ginej Neupane (GrimNej)
+
 **Location**: Nepal
+
 **Education**: Bachelor of Computer Application (3rd Year)
+
 **Role**: Student | AI/Cloud Practitioner
+
 **Interests**: Artificial Intelligence | Cloud Computing | Scalable AI Deployment | Open Source
+
 **Goal**: Rigorously preparing for GSoC 2026 while learning to build and deploy AI at scale with cloud infrastructure.
+
 **Philosophy**: Merging the power of cloud platforms with intelligent AI systems to solve real-world problems.
 
 ---
@@ -61,8 +67,6 @@
 ## GitHub Performance
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=GrimNej&theme=github-dark&hide_border=true" width="100%"/>
-  <br/>
   <img src="https://github-readme-stats.vercel.app/api?username=GrimNej&show_icons=true&theme=github_dark&hide_border=true" width="48%"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=GrimNej&theme=github-dark-blue&hide_border=true" width="48%"/>
 </div>
