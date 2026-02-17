@@ -25,7 +25,7 @@
 
 **Interests**: Artificial Intelligence | Cloud Computing | Scalable AI Deployment | Open Source
 
-**Goal**: Rigorously preparing for ***GSoC*** 2026 while learning to build and deploy AI at scale with cloud infrastructure.
+**Goal**: Get into ***GSoC*** 2026 in order to Broden my knowledge on how code works in Real World.
 
 **Philosophy**: Merging the power of cloud platforms with intelligent AI systems to solve real-world problems.
 
@@ -54,7 +54,7 @@
 
 ---
 
-## What I'm Up To
+## What I'm Up To:
 
 - Building and experimenting with AI models and cloud deployment pipelines.
 - Rigorously preparing for Google Summer of Code (GSoC) 2026.
