@@ -67,7 +67,6 @@
 ## GitHub Performance
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=GrimNej&show_icons=true&theme=github_dark&hide_border=true" width="48%"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=GrimNej&theme=github-dark-blue&hide_border=true" width="48%"/>
 </div>
 
