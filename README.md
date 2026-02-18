@@ -48,8 +48,11 @@
 ## Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=pytorch,flask,docker,numpy" /><br><br>
+  <img src="https://skillicons.dev/icons?i=flask,docker,pytorch" /><br><br>
   <img src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AWS-FF9900?logo=amazon-aws&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?logo=googlecloud&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Oracle-007FAE?logo=oracle&logoColor=white&style=for-the-badge" />
 </p>
 
 ---
