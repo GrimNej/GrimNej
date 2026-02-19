@@ -8,7 +8,7 @@
 ---
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWl4Y2x6NjVkbGZ2OWhmOGd0dTY2OHJvdDBwM3UzbmRjZnV5dXpoNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/JqmupuTVZYaQX5s094/giphy.gif" width="300" alt="AI Cloud Animation"/>
+  <img src="MarkDown/GSOC-2026-GIF.gif" width="350" alt="AI Cloud Animation"/>
 </p>
 
 ---
