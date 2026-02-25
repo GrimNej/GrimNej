@@ -39,7 +39,7 @@
 **Programming Languages**
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,javascript,java,lua,html,css,php" />
+  <img src="https://skillicons.dev/icons?i=python,rust,javascript,java,lua,html,css,php" />
 </p>
 
 <p align="center">
