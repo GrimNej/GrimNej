@@ -1,0 +1,61 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">GrimNej cyberpunk profile banner</title>
+  <desc id="desc">Animated neon banner for The AI Guy, focused on agents, MVPs, automation, and cloud deployment.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050510"/>
+      <stop offset="0.45" stop-color="#111827"/>
+      <stop offset="1" stop-color="#21072E"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00F5FF"/>
+      <stop offset="0.5" stop-color="#F72585"/>
+      <stop offset="1" stop-color="#FFD166"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.05 0 0 0 0 0.95 0 0 0 0 1 0 0 0 0.8 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      @keyframes pulse { 0%,100%{opacity:.72} 50%{opacity:1} }
+      @keyframes scan { from{transform:translateX(-220px)} to{transform:translateX(1220px)} }
+      @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
+      @keyframes dash { to{stroke-dashoffset:-80} }
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+      .sans{font-family:Inter,Segoe UI,Arial,sans-serif}
+      .pulse{animation:pulse 2.8s ease-in-out infinite}
+      .scan{animation:scan 6s linear infinite}
+      .float{animation:float 4.4s ease-in-out infinite}
+      .dash{stroke-dasharray:12 14; animation:dash 7s linear infinite}
+    </style>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <g opacity=".2">
+    <path d="M0 74H1200M0 128H1200M0 182H1200M0 236H1200M0 290H1200M92 0V360M212 0V360M332 0V360M452 0V360M572 0V360M692 0V360M812 0V360M932 0V360M1052 0V360" stroke="#D1D5DB"/>
+  </g>
+  <rect class="scan" x="0" y="0" width="160" height="360" fill="url(#beam)" opacity=".12"/>
+  <path class="dash" d="M96 282C214 184 320 314 430 220C530 134 660 206 756 132C866 48 982 126 1104 58" stroke="url(#beam)" stroke-width="3" opacity=".9"/>
+  <g class="float" filter="url(#glow)">
+    <rect x="84" y="70" width="196" height="42" rx="21" fill="#08111F" stroke="#00F5FF" stroke-width="2"/>
+    <text x="182" y="97" fill="#BFFBFF" class="mono" font-size="18" text-anchor="middle">BUILD MODE: ON</text>
+  </g>
+  <text x="84" y="165" fill="#FFFFFF" class="sans" font-size="72" font-weight="800">GrimNej</text>
+  <text x="86" y="216" fill="#00F5FF" class="mono pulse" font-size="31" font-weight="700">The AI Guy</text>
+  <text x="86" y="258" fill="#E5E7EB" class="sans" font-size="23">AI Solutions Architect · Agentic Engineer · Rapid MVP Builder</text>
+  <g transform="translate(772 76)">
+    <rect width="340" height="210" rx="24" fill="#050A14" stroke="#F72585" opacity=".92"/>
+    <text x="30" y="48" fill="#FFD166" class="mono" font-size="18">ai_build_console</text>
+    <text x="30" y="86" fill="#9CA3AF" class="mono" font-size="16">idea:</text>
+    <text x="106" y="86" fill="#34D399" class="mono" font-size="16">stress-tested</text>
+    <text x="30" y="122" fill="#9CA3AF" class="mono" font-size="16">agents:</text>
+    <text x="126" y="122" fill="#00F5FF" class="mono" font-size="16">orchestrated</text>
+    <text x="30" y="158" fill="#9CA3AF" class="mono" font-size="16">mvp:</text>
+    <text x="92" y="158" fill="#F472B6" class="mono" font-size="16">warming engines</text>
+    <text x="30" y="194" fill="#9CA3AF" class="mono" font-size="16">bugs:</text>
+    <text x="100" y="194" fill="#FFD166" class="mono" font-size="16">under negotiation</text>
+  </g>
+</svg>

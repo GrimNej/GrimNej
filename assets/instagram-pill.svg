@@ -1,0 +1,16 @@
+<svg width="178" height="38" viewBox="0 0 178 38" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Instagram @grimnej</title>
+  <desc id="desc">Instagram button for @grimnej.</desc>
+  <defs>
+    <linearGradient id="ig" x1="0" y1="0" x2="178" y2="38" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F58529"/>
+      <stop offset=".45" stop-color="#DD2A7B"/>
+      <stop offset="1" stop-color="#515BD4"/>
+    </linearGradient>
+  </defs>
+  <rect width="178" height="38" rx="19" fill="url(#ig)"/>
+  <rect x="15" y="10" width="18" height="18" rx="5" stroke="white" stroke-width="2"/>
+  <circle cx="24" cy="19" r="4" stroke="white" stroke-width="2"/>
+  <circle cx="29.5" cy="14.5" r="1.5" fill="white"/>
+  <text x="46" y="25" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">@grimnej</text>
+</svg>

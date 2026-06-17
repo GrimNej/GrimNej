@@ -1,0 +1,9 @@
+<svg width="292" height="38" viewBox="0 0 292 38" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Email GrimNej</title>
+  <desc id="desc">Email button showing grim98413@gmail.com in lowercase.</desc>
+  <rect width="292" height="38" rx="19" fill="#EA4335"/>
+  <circle cx="26" cy="19" r="13" fill="#FFFFFF" opacity=".16"/>
+  <path d="M16 13.5H36V24.5H16V13.5Z" stroke="white" stroke-width="1.8" stroke-linejoin="round"/>
+  <path d="M17 14.5L26 20.8L35 14.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="50" y="25" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">grim98413@gmail.com</text>
+</svg>

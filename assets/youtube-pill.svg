@@ -1,0 +1,8 @@
+<svg width="176" height="38" viewBox="0 0 176 38" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">YouTube @grimnej</title>
+  <desc id="desc">YouTube button for @grimnej.</desc>
+  <rect width="176" height="38" rx="19" fill="#FF0000"/>
+  <rect x="14" y="11" width="24" height="16" rx="4" fill="white"/>
+  <path d="M24 15.2L31 19L24 22.8V15.2Z" fill="#FF0000"/>
+  <text x="50" y="25" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">@grimnej</text>
+</svg>
