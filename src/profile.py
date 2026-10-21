@@ -225,11 +225,15 @@ def focus_map():
         K.glow(cx, cy, 340, "#3a4bb0", 0.3, "f1") + K.glow(120, 40, 360, K.EMBER, 0.12, "f2") + K.stars(W, H, 100, seed=33)
         + f'<g class="field">{K.galaxy(cx, cy, 360, 118, tilt=-3, n=1500, seed=17, rings=((0.78, 0.04, 0.55), (1.0, 0.03, 0.35)))}</g>'
         + K.text("Currently focused on anything that makes AI useful", "head", 23, cx, 46, K.INK, "middle")
-        + f'<circle cx="{cx}" cy="{cy}" r="74" fill="rgba(255,107,61,0.10)" class="pulse" style="transform-origin:{cx}px {cy}px"/>'
-        + f'<circle cx="{cx}" cy="{cy}" r="60" fill="{K.EMBER}"/>'
-        + K.text("AI", "orb", 30, cx, cy - 2, "#170702", "middle")
-        + K.mono("non-stop", cx, cy + 21, 12.5, "#3a1408", "middle", style="monob")
-        + K.mono("adapting", cx, cy + 37, 12.5, "#3a1408", "middle", style="monob")
+        # The AI core: a brushed-silver disc with black type.
+        + '<defs><radialGradient id="silver" cx="0.36" cy="0.3" r="0.8"><stop offset="0" stop-color="#ffffff"/>'
+        '<stop offset="0.45" stop-color="#e3e6ee"/><stop offset="0.8" stop-color="#b9bfcc"/><stop offset="1" stop-color="#8f96a6"/></radialGradient>'
+        '<linearGradient id="rim" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#7c8394"/></linearGradient></defs>'
+        + f'<circle cx="{cx}" cy="{cy}" r="74" fill="rgba(232,235,245,0.10)" class="pulse" style="transform-origin:{cx}px {cy}px"/>'
+        + f'<circle cx="{cx}" cy="{cy}" r="60" fill="url(#silver)" stroke="url(#rim)" stroke-width="1.5"/>'
+        + K.text("AI", "orb", 30, cx, cy - 2, "#07080b", "middle")
+        + K.mono("non-stop", cx, cy + 21, 12.5, "#2a2d38", "middle", style="monob")
+        + K.mono("adapting", cx, cy + 37, 12.5, "#2a2d38", "middle", style="monob")
         + node(110, 78, 230, "AI agents", "tools, memory, loops", K.ICE, 0)
         + node(760, 78, 230, "Agentic AI", "orchestrated systems", K.SIGNAL, 0.6)
         + node(84, 216, 250, "Automation", "workflows with less drama", K.GREEN, 1.2)
