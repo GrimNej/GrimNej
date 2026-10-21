@@ -104,8 +104,9 @@ def banner():
         + f'<g class="field">{K.galaxy(870, 186, 300, 176, tilt=-10, n=1700, seed=11, rings=((0.62, 0.03, 0.46), (0.94, 0.035, 0.44)))}</g>'
         + hud_tag("BUILD MODE: ON", x0, 52, dot=K.GREEN)
         + name
-        + K.mono("The AI Guy", x0, 252, 30, K.ICE, style="monob")
-        + K.text("AI Solutions Architect · Agentic Engineer · Rapid MVP Builder", "title", 21, x0, 300, K.INK2)
+        + f'<defs><clipPath id="titleclip"><path id="ttl" d="{T.path("Chronically Online AI Savant", "title", 34, x0, 254)}"/></clipPath></defs><use href="#ttl" fill="{K.INK}"/>'
+        f'<g clip-path="url(#titleclip)"><rect class="tsheen" x="{x0 - 200}" y="218" width="160" height="48" fill="url(#sheen)"/></g>'
+        + K.mono("Locked in on agentic AI, 24/7. AI for everything, for everyone.", x0, 298, 15, K.ICE)
         + console
         + K.grim(672, 168, 0.88, "bg")
         + K.grain(W, H, 0.045)
@@ -114,11 +115,13 @@ def banner():
 .field { animation: fadein 2s ease-out both; }
 .sheen { animation: sheen 7s cubic-bezier(0.65, 0, 0.35, 1) 1s infinite; }
 @keyframes sheen { 0% { transform: translateX(0); } 40%, 100% { transform: translateX(760px); } }
+.tsheen { animation: tsheen 6.5s cubic-bezier(0.65, 0, 0.35, 1) 2.5s infinite; }
+@keyframes tsheen { 0% { transform: skewX(-12deg) translateX(0); } 35%, 100% { transform: skewX(-12deg) translateX(760px); } }
 .hot { opacity: 0; animation: hot 17s ease-in-out infinite; }
 @keyframes hot { 0% { opacity: 0; } 1.5%, 7% { opacity: 1; } 9.5%, 100% { opacity: 0; } }
 .caret { animation: blink 1.1s steps(2) infinite; }
 """
-    return K.svg(W, H, body, css, "GrimNej. The AI Guy. AI Solutions Architect, Agentic Engineer, Rapid MVP Builder. Build mode: on.", radius=20)
+    return K.svg(W, H, body, css, "GrimNej. Chronically Online AI Savant. Locked in on agentic AI, 24/7. AI for everything, for everyone.", radius=20)
 
 
 # ------------------------------------------------------------------ link buttons
@@ -139,7 +142,7 @@ def pill(label, slug, kind="ghost"):
 def typing():
     """The four lines typed out and deleted in turn, character by character (SMIL, one shared clock)."""
     W, H, size = 980, 56, 24
-    lines = ["AI agents that actually do the work", "Idea to MVP before the meeting gets cold", "Automation, RAG, cloud, tools, deployments", "If it touches AI, I am probably building it"]
+    lines = ["Locked in on agentic AI, 24/7", "Agents that actually do the work", "Automations that run themselves", "Whole products from a napkin sketch", "AI for everything, for everyone"]
     slot, cycle = 4.0, 4.0 * len(lines)
     type_t, hold_t, del_t = 1.7, 1.4, 0.6  # seconds within each line's slot
     body, defs = "", ""
@@ -189,10 +192,10 @@ def console():
         + f'<g class="field">{K.galaxy(930, 130, 260, 92, tilt=-6, n=900, seed=5, rings=((0.7, 0.04, 0.5), (0.98, 0.035, 0.4)))}</g>'
         + f'<rect x="38" y="38" width="1024" height="184" rx="14" fill="rgba(10,11,16,0.86)" stroke="{K.LINE2}" stroke-width="1.5"/>'
         + K.mono("$", 72, 84, 19, K.EMBER, style="monob") + K.mono("idea_to_mvp --speed=ridiculous --excuses=0", 94, 84, 19, K.ICE)
-        + K.text("Have an AI idea? I can tell if it flies.", "head", 34, 72, 136, K.INK)
-        + K.text("Then I build the runway", "head", 34, 72, 180, K.INK)
+        + K.text("Bring me a half-baked idea.", "head", 34, 72, 136, K.INK)
+        + K.text("Straight answer first, then a working prototype", "head", 34, 72, 180, K.INK)
     )
-    dot_x = 72 + T.width("Then I build the runway", "head", 34) + 4
+    dot_x = 72 + T.width("Straight answer first, then a working prototype", "head", 34) + 4
     cur_x = 160 + T.width("grim98413@gmail.com", "mono", 17) + 6
     body += (
         f'<rect x="{dot_x:.0f}" y="172" width="8" height="8" fill="{K.EMBER}"/>'
@@ -202,7 +205,7 @@ def console():
         + K.grain(W, H, 0.04)
     )
     css = K.GRIM_CSS + ".field { animation: fadein 2s ease-out both; } .caret { animation: blink 1.1s steps(2) infinite; }"
-    return K.svg(W, H, body, css, "Have an AI idea? I can tell if it flies. Then I build the runway. Contact: grim98413@gmail.com", radius=20)
+    return K.svg(W, H, body, css, "Bring me a half-baked idea. Straight answer first, then a working prototype. Contact: grim98413@gmail.com", radius=20)
 
 
 # ------------------------------------------------------------------ focus map
@@ -224,7 +227,7 @@ def focus_map():
     body = (
         K.glow(cx, cy, 340, "#3a4bb0", 0.3, "f1") + K.glow(120, 40, 360, K.EMBER, 0.12, "f2") + K.stars(W, H, 100, seed=33)
         + f'<g class="field">{K.galaxy(cx, cy, 360, 118, tilt=-3, n=1500, seed=17, rings=((0.78, 0.04, 0.55), (1.0, 0.03, 0.35)))}</g>'
-        + K.text("Currently focused on anything that makes AI useful", "head", 23, cx, 46, K.INK, "middle")
+        + K.text("Four things I could build in my sleep.", "head", 23, cx, 46, K.INK, "middle")
         # The AI core: a brushed-silver disc with black type.
         + '<defs><radialGradient id="silver" cx="0.36" cy="0.3" r="0.8"><stop offset="0" stop-color="#ffffff"/>'
         '<stop offset="0.45" stop-color="#e3e6ee"/><stop offset="0.8" stop-color="#b9bfcc"/><stop offset="1" stop-color="#8f96a6"/></radialGradient>'
@@ -232,13 +235,12 @@ def focus_map():
         + f'<circle cx="{cx}" cy="{cy}" r="74" fill="rgba(232,235,245,0.10)" class="pulse" style="transform-origin:{cx}px {cy}px"/>'
         + f'<circle cx="{cx}" cy="{cy}" r="60" fill="url(#silver)" stroke="url(#rim)" stroke-width="1.5"/>'
         + K.text("AI", "orb", 30, cx, cy - 2, "#07080b", "middle")
-        + K.mono("non-stop", cx, cy + 21, 12.5, "#2a2d38", "middle", style="monob")
-        + K.mono("adapting", cx, cy + 37, 12.5, "#2a2d38", "middle", style="monob")
-        + node(110, 78, 230, "AI agents", "tools, memory, loops", K.ICE, 0)
-        + node(760, 78, 230, "Agentic AI", "orchestrated systems", K.SIGNAL, 0.6)
-        + node(84, 216, 250, "Automation", "workflows with less drama", K.GREEN, 1.2)
-        + node(430, 260, 240, "Rapid MVPs", "prototype before overthinking", K.EMBER, 1.8)
-        + node(770, 216, 240, "Cloud deploy", "Docker, APIs, infra", GOLD, 2.4)
+        + K.mono("locked in", cx, cy + 21, 12.5, "#2a2d38", "middle", style="monob")
+        + K.mono("24/7", cx, cy + 37, 12.5, "#2a2d38", "middle", style="monob")
+        + node(110, 84, 280, "Agents", "plans, calls tools, finishes", K.ICE, 0)
+        + node(710, 84, 280, "Automation", "did it twice? it runs itself", K.GREEN, 0.6)
+        + node(110, 230, 280, "Copilots", "knows your whole stack", K.SIGNAL, 1.2)
+        + node(710, 230, 280, "MVPs", "napkin sketch to live URL", K.EMBER, 1.8)
         + K.grain(W, H, 0.04)
     )
     css = """
@@ -248,7 +250,7 @@ def focus_map():
 .pulse { animation: pulse 3.2s ease-in-out infinite; }
 @keyframes pulse { 0%, 100% { transform: scale(0.92); opacity: 0.9; } 50% { transform: scale(1.14); opacity: 0; } }
 """
-    return K.svg(W, H, body, css, "Currently focused on anything that makes AI useful: AI agents, Agentic AI, Automation, Rapid MVPs, Cloud deploy. AI, non-stop adapting.", radius=20)
+    return K.svg(W, H, body, css, "Four things I could build in my sleep: Agents, Automation, Copilots, MVPs. AI, locked in 24/7.", radius=20)
 
 
 # ------------------------------------------------------------------ skills, as balls from the pit
@@ -320,6 +322,7 @@ AI_TOOLS = [
     ("LangChain", "langchain"), ("LangGraph", "langgraph"), ("LlamaIndex", None), ("CrewAI", "crewai"), ("AutoGen", None), ("Pydantic AI", "pydantic"),
     ("DSPy", None), ("Mastra", None), ("Semantic Kernel", None), ("MCP", "modelcontextprotocol"), ("RAG", None), ("Vector DBs", None),
     ("Pinecone", None), ("Qdrant", "qdrant"), ("Chroma", None), ("Vercel AI SDK", "vercel"), ("Hugging Face", "huggingface"), ("Ollama", "ollama"),
+    ("Claude Code", "claude"), ("Codex", "openai"), ("IBM watsonx.ai", None), ("Snowflake Cortex", "snowflake"),
 ]
 
 
@@ -359,38 +362,39 @@ def ai_tools():
 # ------------------------------------------------------------------ idea to MVP
 
 def idea_to_mvp():
+    """The portfolio's process: three steps along a live wire."""
     W, H = 1100, 300
-    flow = "M110 150C260 84 360 216 510 150S760 84 990 150"
-    stages = [
-        ("Idea", "what if...", "famous last words", K.ICE),
-        ("Map", "system shape", "no fog allowed", K.SIGNAL),
-        ("Test Risk", "hardest part first", "panic, but typed", K.EMBER),
-        ("Build", "MVP + deploy", "it lives", K.GREEN),
-        ("Handoff", "docs + next moves", "future-proof-ish", GOLD),
+    flow = "M150 150C330 90 400 210 550 150S770 90 950 150"
+    steps = [
+        ("Verdict first", "you pitch it", "straight answer, no glazing", K.ICE),
+        ("Prototype fast", "something to click", "early, not a promise", K.EMBER),
+        ("Keep it moving", "new model drops?", "slots in, no rewrite", K.GREEN),
     ]
     body = (
         K.glow(140, 30, 420, K.EMBER, 0.13, "i1") + K.glow(980, 290, 420, K.SIGNAL, 0.16, "i2") + K.stars(W, H, 90, seed=41)
         + f'<g class="field">{K.galaxy(550, 160, 500, 70, tilt=-2, n=900, seed=23, rings=((0.85, 0.05, 0.6), (1.0, 0.03, 0.3)))}</g>'
-        + '<defs><linearGradient id="flow" x1="110" y1="0" x2="990" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6fe3ff"/>'
-        '<stop offset="0.5" stop-color="#8b9cff"/><stop offset="1" stop-color="#ff6b3d"/></linearGradient>'
+        + '<defs><linearGradient id="flow" x1="150" y1="0" x2="950" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6fe3ff"/>'
+        '<stop offset="0.5" stop-color="#ff6b3d"/><stop offset="1" stop-color="#3ee08f"/></linearGradient>'
         '<filter id="spk" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>'
-        + K.text("How I move from idea to working product", "head", 25, 550, 48, K.INK, "middle")
+        + K.text("Idea in. Working thing out.", "head", 25, 550, 48, K.INK, "middle")
         + f'<path class="dash" d="{flow}" fill="none" stroke="url(#flow)" stroke-width="3" stroke-linecap="round" opacity="0.85"/>'
+        # The spark rides the wire behind the cards.
+        + f'<circle r="6" fill="#ffffff" filter="url(#spk)"><animateMotion dur="5s" repeatCount="indefinite" path="{flow}"/>'
+        '<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="5s" repeatCount="indefinite"/></circle>'
     )
-    for i, (t, a, b, c) in enumerate(stages):
-        x = 54 + i * 208
+    for i, (t, a, b, c) in enumerate(steps):
+        x = 70 + i * 340
         body += (
-            f'<g class="card" style="animation-delay:{i * 0.4:.1f}s"><rect x="{x}" y="92" width="160" height="116" rx="12" fill="#0b0c11" stroke="{K.LINE2}" stroke-width="1.5"/>'
-            f'<rect x="{x + 20}" y="92" width="40" height="3" fill="{c}"/>'
-            + K.text(t, "head", 20, x + 80, 134, K.INK, "middle")
-            + K.mono(a, x + 80, 164, 13, K.INK3, "middle")
-            + K.mono(b, x + 80, 186, 13, c, "middle")
+            f'<g class="card" style="animation-delay:{i * 0.5:.1f}s"><rect x="{x}" y="92" width="280" height="116" rx="12" fill="#0b0c11" stroke="{K.LINE2}" stroke-width="1.5"/>'
+            f'<rect x="{x + 22}" y="92" width="46" height="3" fill="{c}"/>'
+            + K.mono(f"0{i + 1}", x + 22, 125, 13, K.INK3)
+            + K.text(t, "head", 22, x + 52, 126, K.INK)
+            + K.mono(a, x + 22, 162, 13.5, K.INK3)
+            + K.mono(b, x + 22, 186, 13.5, c)
             + "</g>"
         )
     body += (
-        f'<circle r="6" fill="#ffffff" filter="url(#spk)"><animateMotion dur="5.5s" repeatCount="indefinite" path="{flow}"/>'
-        '<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="5.5s" repeatCount="indefinite"/></circle>'
-        + K.mono("Architecture first. Execution fast. No shrine to one stack.", 550, 262, 16, K.INK2, "middle")
+        K.mono("Working software beats a slide deck.", 550, 262, 16, K.INK2, "middle")
         + K.grain(W, H, 0.04)
     )
     css = """
@@ -400,4 +404,4 @@ def idea_to_mvp():
 .card { animation: lift 4.8s ease-in-out infinite; }
 @keyframes lift { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
 """
-    return K.svg(W, H, body, css, "How I move from idea to working product: Idea, Map, Test Risk, Build, Handoff. Architecture first. Execution fast. No shrine to one stack.", radius=20)
+    return K.svg(W, H, body, css, "How it goes: Idea in. Working thing out. Verdict first. Prototype fast. Keep it moving.", radius=20)

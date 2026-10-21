@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="GrimNej - The AI Guy"/>
+  <img src="assets/banner.svg" width="100%" alt="GrimNej. Chronically Online AI Savant. Locked in on agentic AI, 24/7."/>
 </p>
 
 <p align="center">
@@ -24,67 +24,73 @@
 </p>
 
 <h1 align="center">Ginej Neupane / GrimNej</h1>
-<h3 align="center">The AI Guy | AI Solutions Architect | Agentic Engineer | GenAI Engineer | Rapid MVP Builder</h3>
+<h3 align="center">Chronically Online AI Savant</h3>
 
 <p align="center">
-  <img src="assets/typing.svg" width="88%" alt="AI agents that actually do the work. Idea to MVP before the meeting gets cold. Automation, RAG, cloud, tools, deployments. If it touches AI, I am probably building it."/>
+  <img src="assets/typing.svg" width="88%" alt="Locked in on agentic AI, 24/7. Agents that actually do the work. Automations that run themselves. Whole products from a napkin sketch. AI for everything, for everyone."/>
 </p>
 
 ---
 
 ## Hi
 
-I am Ginej Neupane, better known in the dev community as **GrimNej**.
+I'm Ginej, **GrimNej** online. My screen time is release notes, repos, and papers, so when a new model drops, I'm already building on it while the timeline is still arguing about it.
 
-I build practical AI systems: agentic workflows, automation tools, RAG pipelines, model-powered products, internal copilots, and fast MVPs for teams that need to move from idea to execution without getting trapped in endless planning.
+Agents that actually finish the task, automations that delete busywork, copilots that know your whole stack, and apps people come back to. No yapping.
 
-My strongest suit is **rapid execution**. If an idea needs a technical verdict, I can break it down, choose the right architecture, and ship a working foundation quickly. I am not married to one framework or stack; I use whatever gets the product built, tested, deployed, and ready for the next iteration.
+I don't do stack loyalty. Python, TypeScript, Rust, whichever model is cooking this month. If it ships, it's the right tool, and if something better drops on Tuesday, I'm already in the docs.
 
 <p align="center">
-  <img src="assets/contact-console.svg" width="88%" alt="Have an AI idea? I can tell if it flies, then build the runway."/>
+  <img src="assets/contact-console.svg" width="88%" alt="Bring me a half-baked idea. Straight answer first, then a working prototype."/>
 </p>
 
 <p align="center">
-  <img src="assets/focus-map.svg" width="96%" alt="Current AI focus map"/>
+  <img src="assets/focus-map.svg" width="96%" alt="Four things I could build in my sleep: Agents, Automation, Copilots, MVPs."/>
 </p>
 
-## Current Focus
+## What I Build
 
-AI agents, agentic AI, automation tools, rapid MVP development, cloud deployment, and the constant **non-stop adapting** required to keep up with a field that reinvents itself every other coffee break.
+**Agents** that plan, call tools, and actually finish the task. Multi-agent teams, MCP, memory, and guardrails, built for real work.<br/>
+**Automation** for anything you did twice. Scripts, pipelines, bots, and scheduled jobs that keep running without you.<br/>
+**Copilots** that know your docs, your code, and your stack, and show exactly where every answer came from.<br/>
+**MVPs** from a napkin sketch to a live URL, fast, built to hold up with real users, not just in the demo.
 
-## AI Engineering Stack
+## Ball Knowledge
+
+Every tool in my rotation.
 
 <p align="center">
   <img src="assets/stack-icons.svg" width="100%" alt="Python, TypeScript, JavaScript, Rust, Java, Lua, PHP, HTML, CSS, React, Next.js, Node.js, FastAPI, Flask, Docker, Kubernetes, Linux, Git, GitHub Actions, PostgreSQL, Redis, Supabase, MongoDB, AWS, Google Cloud, Azure, PyTorch, TensorFlow, OpenCV"/>
 </p>
 
 <p align="center">
-  <img src="assets/ai-tools.svg" width="100%" alt="OpenAI, OpenAI Agents SDK, Anthropic, Gemini, Google ADK, LangChain, LangGraph, LlamaIndex, CrewAI, AutoGen, Pydantic AI, DSPy, Mastra, Semantic Kernel, MCP, RAG, Vector DBs, Pinecone, Qdrant, Chroma, Vercel AI SDK, Hugging Face, Ollama"/>
+  <img src="assets/ai-tools.svg" width="100%" alt="OpenAI, OpenAI Agents SDK, Anthropic, Gemini, Google ADK, LangChain, LangGraph, LlamaIndex, CrewAI, AutoGen, Pydantic AI, DSPy, Mastra, Semantic Kernel, MCP, RAG, Vector DBs, Pinecone, Qdrant, Chroma, Vercel AI SDK, Hugging Face, Ollama, Claude Code, Codex, IBM watsonx.ai, Snowflake Cortex"/>
 </p>
 
 <details>
   <summary><b>Expanded toolbox</b></summary>
   <br/>
 
-  **Languages:** Python, TypeScript, JavaScript, Rust, Java, Lua, PHP, SQL, HTML, CSS  
-  **AI systems:** OpenAI, OpenAI Agents SDK, Anthropic, Gemini, Google ADK, LangChain, LangGraph, LlamaIndex, CrewAI, AutoGen, Pydantic AI, DSPy, Mastra, Haystack, Semantic Kernel, Agno, MCP, RAG, embeddings, evals, tool calling, structured outputs  
-  **Backend and apps:** FastAPI, Flask, Node.js, Next.js, React, REST APIs, WebSockets, background jobs  
-  **Data and storage:** PostgreSQL, Supabase, Redis, MongoDB, Pinecone, Qdrant, Chroma, object storage  
-  **Cloud and shipping:** Docker, Kubernetes, AWS, Google Cloud, Azure, CI/CD, Linux, GitHub Actions, observability  
-  **ML and media:** PyTorch, TensorFlow, Pandas, NumPy, OpenCV, Hugging Face, local models, Ollama
+  **Languages:** Python, TypeScript, JavaScript, Rust, Kotlin, Java, Lua, PHP, SQL, HTML, CSS  
+  **AI:** agentic AI and multi-agent systems, MCP, OpenAI and the Agents SDK, Anthropic, Gemini, Google ADK, LangChain, LangGraph, LlamaIndex, CrewAI, AutoGen, Pydantic AI, DSPy, agent memory and evals, Claude Code, Codex, Hugging Face, Ollama, IBM watsonx.ai, Snowflake Cortex  
+  **Apps and data:** FastAPI, Flask, Node.js, Next.js, React, Hono, Vite, PostgreSQL, Supabase, Redis, MongoDB, Pinecone, Qdrant, Chroma  
+  **Cloud:** Docker, Kubernetes, AWS, Google Cloud, Azure, Cloudflare Workers, Vercel, GitHub Actions, Linux  
+  **ML and media:** PyTorch, TensorFlow, OpenCV, NumPy, Pandas, FFmpeg, After Effects automation
 </details>
 
-## Operating Style
+## How It Goes
 
 <p align="center">
-  <img src="assets/idea-to-mvp.svg" width="96%" alt="Animated idea to MVP operating style diagram"/>
+  <img src="assets/idea-to-mvp.svg" width="96%" alt="Idea in. Working thing out. Verdict first, prototype fast, keep it moving."/>
 </p>
 
-## What I Am Looking For
+**Verdict first.** You pitch it, and I tell you straight whether it's real. No glazing, before anyone spends money finding out.<br/>
+**Prototype fast.** Working software beats a slide deck. You get something to click early, not a promise.<br/>
+**Keep it moving.** AI changes weekly. I build so the next model slots in without a rewrite.
 
-I am looking for AI startups, founders, and enterprise teams that need someone who can think architecturally and execute quickly. If you need an agentic system, automation layer, internal AI tool, or MVP that proves the idea is technically real, I am the person you call when the deadline has already started looking at you funny.
+## Let's Talk
 
-## Connect
+Got an idea, a broken agent, or a deadline closing in? Send it over. I read everything and reply fast. If it's mid, you'll hear it. If it's real, you'll get a working version.
 
 <p align="center">
   <a href="https://grimnej.com"><img src="assets/pill-portfolio.svg" height="28" alt="portfolio"/></a>
