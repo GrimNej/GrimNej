@@ -1,25 +1,25 @@
 <p align="center">
-  <img src="assets/banner-cyberpunk.svg" width="100%" alt="GrimNej - The AI Guy"/>
+  <img src="assets/banner.svg" width="100%" alt="GrimNej - The AI Guy"/>
 </p>
 
 <p align="center">
-  <a href="https://grimnej.github.io/">
-    <img src="assets/portfolio-pill.svg" height="28" alt="portfolio"/>
+  <a href="https://grimnej.com">
+    <img src="assets/pill-portfolio.svg" height="28" alt="portfolio"/>
   </a>
   <a href="mailto:grim98413@gmail.com">
-    <img src="assets/email-pill.svg" height="28" alt="grim98413@gmail.com"/>
+    <img src="assets/pill-email.svg" height="28" alt="grim98413@gmail.com"/>
   </a>
   <a href="https://www.linkedin.com/in/grimnej/">
-    <img src="assets/linkedin-pill.svg" height="28" alt="LinkedIn GrimNej"/>
+    <img src="assets/pill-linkedin.svg" height="28" alt="LinkedIn GrimNej"/>
   </a>
   <a href="https://www.instagram.com/grimnej/?hl=en">
-    <img src="assets/instagram-pill.svg" height="28" alt="Instagram @grimnej"/>
+    <img src="assets/pill-instagram.svg" height="28" alt="Instagram @grimnej"/>
   </a>
-  <a href="https://x.com/grimnej1">
-    <img src="assets/x-pill.svg" height="28" alt="X @grimnej1"/>
+  <a href="https://x.com/grimnej_">
+    <img src="assets/pill-x.svg" height="28" alt="X @grimnej_"/>
   </a>
   <a href="https://www.youtube.com/@grimnej">
-    <img src="assets/youtube-pill.svg" height="28" alt="YouTube @grimnej"/>
+    <img src="assets/pill-youtube.svg" height="28" alt="YouTube @grimnej"/>
   </a>
 </p>
 
@@ -27,7 +27,7 @@
 <h3 align="center">The AI Guy | AI Solutions Architect | Agentic Engineer | GenAI Engineer | Rapid MVP Builder</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2200&pause=600&color=00F5FF&center=true&vCenter=true&width=980&lines=AI+agents+that+actually+do+the+work;Idea+to+MVP+before+the+meeting+gets+cold;Automation%2C+RAG%2C+cloud%2C+tools%2C+deployments;If+it+touches+AI%2C+I+am+probably+building+it" alt="Typing animation"/>
+  <img src="assets/typing.svg" width="88%" alt="AI agents that actually do the work. Idea to MVP before the meeting gets cold. Automation, RAG, cloud, tools, deployments. If it touches AI, I am probably building it."/>
 </p>
 
 ---
@@ -55,33 +55,11 @@ AI agents, agentic AI, automation tools, rapid MVP development, cloud deployment
 ## AI Engineering Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,typescript,javascript,rust,java,lua,php,html,css,react,nextjs,nodejs,fastapi,flask,docker,kubernetes,linux,git,githubactions,postgres,redis,supabase,mongodb,aws,gcp,azure,pytorch,tensorflow,opencv" alt="Skill icons"/>
+  <img src="assets/stack-icons.svg" width="100%" alt="Python, TypeScript, JavaScript, Rust, Java, Lua, PHP, HTML, CSS, React, Next.js, Node.js, FastAPI, Flask, Docker, Kubernetes, Linux, Git, GitHub Actions, PostgreSQL, Redis, Supabase, MongoDB, AWS, Google Cloud, Azure, PyTorch, TensorFlow, OpenCV"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/OpenAI-111827?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
-  <img src="https://img.shields.io/badge/OpenAI_Agents_SDK-111827?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI Agents SDK"/>
-  <img src="https://img.shields.io/badge/Anthropic-191919?style=for-the-badge&logo=anthropic&logoColor=white" alt="Anthropic"/>
-  <img src="https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini"/>
-  <img src="https://img.shields.io/badge/Google_ADK-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Agent Development Kit"/>
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain"/>
-  <img src="https://img.shields.io/badge/LangGraph-0B1220?style=for-the-badge&logo=langchain&logoColor=white" alt="LangGraph"/>
-  <img src="https://img.shields.io/badge/LlamaIndex-6A5ACD?style=for-the-badge" alt="LlamaIndex"/>
-  <img src="https://img.shields.io/badge/CrewAI-FF5A5F?style=for-the-badge" alt="CrewAI"/>
-  <img src="https://img.shields.io/badge/AutoGen-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="AutoGen"/>
-  <img src="https://img.shields.io/badge/Pydantic_AI-E92063?style=for-the-badge&logo=pydantic&logoColor=white" alt="Pydantic AI"/>
-  <img src="https://img.shields.io/badge/DSPy-111827?style=for-the-badge" alt="DSPy"/>
-  <img src="https://img.shields.io/badge/Mastra-111827?style=for-the-badge" alt="Mastra"/>
-  <img src="https://img.shields.io/badge/Semantic_Kernel-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="Semantic Kernel"/>
-  <img src="https://img.shields.io/badge/MCP-0F172A?style=for-the-badge" alt="Model Context Protocol"/>
-  <img src="https://img.shields.io/badge/RAG-2DD4BF?style=for-the-badge&logoColor=black" alt="RAG"/>
-  <img src="https://img.shields.io/badge/Vector_DBs-7C3AED?style=for-the-badge" alt="Vector databases"/>
-  <img src="https://img.shields.io/badge/Pinecone-000000?style=for-the-badge" alt="Pinecone"/>
-  <img src="https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge" alt="Qdrant"/>
-  <img src="https://img.shields.io/badge/Chroma-FFDE59?style=for-the-badge&logoColor=black" alt="Chroma"/>
-  <img src="https://img.shields.io/badge/Vercel_AI_SDK-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel AI SDK"/>
-  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face"/>
-  <img src="https://img.shields.io/badge/Ollama-0B0B0B?style=for-the-badge" alt="Ollama"/>
+  <img src="assets/ai-tools.svg" width="100%" alt="OpenAI, OpenAI Agents SDK, Anthropic, Gemini, Google ADK, LangChain, LangGraph, LlamaIndex, CrewAI, AutoGen, Pydantic AI, DSPy, Mastra, Semantic Kernel, MCP, RAG, Vector DBs, Pinecone, Qdrant, Chroma, Vercel AI SDK, Hugging Face, Ollama"/>
 </p>
 
 <details>
@@ -109,10 +87,10 @@ I am looking for AI startups, founders, and enterprise teams that need someone w
 ## Connect
 
 <p align="center">
-  <a href="https://grimnej.github.io/"><img src="assets/portfolio-pill.svg" height="28" alt="portfolio"/></a>
-  <a href="mailto:grim98413@gmail.com"><img src="assets/email-pill.svg" height="28" alt="grim98413@gmail.com"/></a>
-  <a href="https://www.linkedin.com/in/grimnej/"><img src="assets/linkedin-pill.svg" height="28" alt="LinkedIn GrimNej"/></a>
-  <a href="https://www.instagram.com/grimnej/?hl=en"><img src="assets/instagram-pill.svg" height="28" alt="Instagram @grimnej"/></a>
-  <a href="https://x.com/grimnej1"><img src="assets/x-pill.svg" height="28" alt="X @grimnej1"/></a>
-  <a href="https://www.youtube.com/@grimnej"><img src="assets/youtube-pill.svg" height="28" alt="YouTube @grimnej"/></a>
+  <a href="https://grimnej.com"><img src="assets/pill-portfolio.svg" height="28" alt="portfolio"/></a>
+  <a href="mailto:grim98413@gmail.com"><img src="assets/pill-email.svg" height="28" alt="grim98413@gmail.com"/></a>
+  <a href="https://www.linkedin.com/in/grimnej/"><img src="assets/pill-linkedin.svg" height="28" alt="LinkedIn GrimNej"/></a>
+  <a href="https://www.instagram.com/grimnej/?hl=en"><img src="assets/pill-instagram.svg" height="28" alt="Instagram @grimnej"/></a>
+  <a href="https://x.com/grimnej_"><img src="assets/pill-x.svg" height="28" alt="X @grimnej_"/></a>
+  <a href="https://www.youtube.com/@grimnej"><img src="assets/pill-youtube.svg" height="28" alt="YouTube @grimnej"/></a>
 </p>
